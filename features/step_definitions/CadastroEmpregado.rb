@@ -12,8 +12,8 @@ end
 Então ("Cadastrar Novo Empregado") do
     click_link "menu_pim_viewPimModule"
     click_link "menu_pim_addEmployee"
-    click_button "btnAdd"
-    fill_in "firstName", :with  => "Biel_2"
+    #click_button "btnAdd"
+    fill_in "firstName", :with  => "Biel_3"
     fill_in "middleName", :with => "Bomfim"
     fill_in "lastName", :with   => "Soares"
     click_button "btnSave"
